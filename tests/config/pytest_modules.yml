@@ -1,0 +1,3 @@
+subworkflows/toy_subworkflow:
+  - subworkflows/mskcc/toy_subworkflow/**
+  - tests/subworkflows/mskcc/toy_subworkflow/**
