@@ -1,0 +1,13 @@
+- name: toy_subworkflow test_toy_subworkflow
+  command: nextflow run ./tests/subworkflows/nf-core-test/toy_subworkflow -entry test_toy_subworkflow -c ./tests/config/nextflow.config
+  tags:
+    - samtools
+    - samtools/index
+    - samtools/sort
+    - subworkflows
+    - subworkflows/toy_subworkflow
+  files:
+    - path: output/samtools/test.bam
+      md5sum: 2cf8fe8dbba3da7eb4fb251c79f428dc
+    - path: output/samtools/test.bam.bai
+      md5sum: 002488588110dcee464e65f68c4726e8
